@@ -1,0 +1,45 @@
+LinearEquation class
+
+Instance Variables:
+private int x1 - This variable represents the x-coordinate from the 1st input
+private int x2 - This variable represents the x-coordinate from the 2nd input
+private int y1 - This variable represents the y-coordinate from the 1st input
+private int y2 - This variable represents the y-coordinate from the 2nd input
+
+
+Constructor
+public LinearEquation(int x1, int x2, int y1, int y2)
+This constructor contains the points of both coordinates which will later be manipulated to form equations
+
+
+Methods
+Public double findSlope(int num1, int num2, int num3, int num4)
+This method runs the slope finding equation with (num4-num3)/(num2-num1) and returns slope
+
+Public double yIntercept(int x1, int y1, double slope)
+this method runs the equation to find the y intercept by (y1/slope) - x1 that returns a yIntercept value
+
+Public double calculateDistance(int num1, int num2, int num3, int num4)
+This method will calculate distance
+
+Public double userEquation()
+this method takes the user input and applies it to an equation to calculate an output which will then be returned in coordinate format
+
+public String toString()
+This method will display all relevant information about this
+instance including:
+- X and Y coordinate information
+- Slope Intercept Form equation
+
+
+EquationRunner.java
+Step 1: Ask user to enter first coordinate point
+Step 2: Ask user to enter second coordinate point
+Step 3: print the first coordinate point
+step 4: print the 2nd coordinate point
+step 5: print the slope
+step 6: print the y intercept
+step 7: print the slope intercept form equation
+step 8: print the distance between the 2 points
+step 9: ask user to enter an x value
+step 10: return a coordinate point that uses that x and has a y value from the equation
