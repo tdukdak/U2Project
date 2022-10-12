@@ -1,2 +1,2 @@
-public class EquationRunner {
+public class EquationRunners {
 }
