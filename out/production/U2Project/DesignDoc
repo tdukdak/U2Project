@@ -22,9 +22,17 @@ this method runs the equation to find the y intercept by (y1/slope) - x1 that re
 Public double calculateDistance(int num1, int num2, int num3, int num4)
 This method will calculate distance
 
+Public double userEquation()
+this method takes the user input and applies it to an equation to calculate an output which will then be returned in coordinate format
+
 Math.round()
 rounds the numbers
 
+public String toString()
+This method will display all relevant information about this
+instance including:
+- X and Y coordinate information
+- Slope Intercept Form equation
 
 
 EquationRunner.java
@@ -33,13 +41,11 @@ Step 2: convert the input to separate values assigned to each variable
 Step 3: Ask user to enter second coordinate point
 Step 4: convert the input to separate values assigned to each variable
 step 5: Attach coordinates to a new object
-step 6: set a new variable to the value after the yIntercept method is used on the new object (rounded)
-step 7: set a new variable to the value after the findSlope method is used on the new object (rounded)
-Step 8: print the first coordinate point
-step 9: print the 2nd coordinate point
-step 10: print the slope variable
-step 11: print the y intercept variable
-step 12: print the slope intercept form equation using the previous discovered values but calculate m in fraction form
-step 13: print the distance between the 2 points rounded
-step 14: ask user to enter an x value
-step 15: return a coordinate point that uses that x and has a y value from the equation
+Step 6: print the first coordinate point
+step 7: print the 2nd coordinate point
+step 8: print the slope
+step 9: print the y intercept
+step 10: print the slope intercept form equation
+step 11: print the distance between the 2 points
+step 12: ask user to enter an x value
+step 13: return a coordinate point that uses that x and has a y value from the equation
